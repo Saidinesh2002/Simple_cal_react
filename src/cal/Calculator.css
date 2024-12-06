@@ -1,0 +1,147 @@
+/* src/Calculator.css */
+.calculator {
+    width: 280px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #b02727;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    font-size: 32px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #fff;/* src/Calculator.css */
+    .calculator {
+      width: 100%;
+      max-width: 320px; /* Limit the max width */
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #f1f1f1;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box; /* Ensure padding doesn't affect width */
+    }
+    
+    .display {
+      text-align: right;
+      margin-bottom: 10px;
+    }
+    
+    .input {
+      font-size: 32px;
+      margin-bottom: 5px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    
+    .output {
+      font-size: 24px;
+      color: #888;
+    }
+    
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    
+    button {
+      padding: 20px;
+      font-size: 20px;
+      border: none;
+      background-color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border-radius: 5px;
+    }
+    
+    button:hover {
+      background-color: #f0f0f0;
+    }
+    
+    button:active {
+      background-color: #ddd;
+    }
+    
+    /* Responsive Design: Scale Down Button Sizes on Smaller Screens */
+    @media (max-width: 400px) {
+      .calculator {
+        max-width: 280px;
+        padding: 15px;
+      }
+    
+      .input {
+        font-size: 28px;
+        padding: 8px;
+      }
+    
+      .output {
+        font-size: 20px;
+      }
+    
+      button {
+        padding: 18px;
+        font-size: 18px;
+      }
+    }
+    
+    /* For very small screens (like small mobile devices) */
+    @media (max-width: 320px) {
+      .calculator {
+        max-width: 260px;
+        padding: 10px;
+      }
+    
+      .input {
+        font-size: 24px;
+      }
+    
+      .output {
+        font-size: 18px;
+      }
+    
+      button {
+        padding: 15px;
+        font-size: 16px;
+      }
+    }
+    
+    border-radius: 5px;
+  }
+  
+  .output {
+    font-size: 24px;
+    color: #888;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  button:active {
+    background-color: #ddd;
+  }
+  
